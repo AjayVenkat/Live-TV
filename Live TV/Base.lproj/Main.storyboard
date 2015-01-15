@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rmx-Au-JOp">
+                                <rect key="frame" x="16" y="132" width="178" height="95"/>
+                                <state key="normal" image="abc_news_24_au.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SfD-0w-ebl" kind="modal" identifier="abc24" id="wQ5-9D-o1P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wun-GJ-tx0">
+                                <rect key="frame" x="16" y="235" width="178" height="95"/>
+                                <state key="normal" image="extra_big_logo.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SfD-0w-ebl" kind="modal" identifier="arirang" id="bNH-OY-DLI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gql-DQ-kqa">
+                                <rect key="frame" x="16" y="338" width="178" height="95"/>
+                                <state key="normal" image="Russia-today-logo.svg.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SfD-0w-ebl" kind="modal" identifier="RT" id="K4H-cz-ecr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8Y-8O-x1J">
+                                <rect key="frame" x="16" y="441" width="178" height="95"/>
+                                <state key="normal" image="whysojapan_nhk_logo.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SfD-0w-ebl" kind="modal" identifier="NHK" id="51Y-xN-OSh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AwY-IM-hdY">
+                                <rect key="frame" x="202" y="441" width="178" height="95"/>
+                                <state key="normal" image="natgeowild_logo_cmyk_grey-cb1383850824.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SfD-0w-ebl" kind="modal" identifier="natgeowild" id="Psr-si-sOj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9D-JX-9jf">
+                                <rect key="frame" x="202" y="338" width="178" height="95"/>
+                                <state key="normal" image="logo-print.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SfD-0w-ebl" kind="modal" identifier="i24news" id="LHZ-dh-9ZI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIR-3K-dhW">
+                                <rect key="frame" x="202" y="235" width="178" height="95"/>
+                                <state key="normal" image="photo.jpg.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SfD-0w-ebl" kind="modal" identifier="abcnewsonly" id="QIS-HS-tAo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHQ-Zi-3Ji">
+                                <rect key="frame" x="388" y="235" width="185" height="95"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <state key="normal" image="180px-CNBC_logo.svg.png" backgroundImage="180px-CNBC_logo.svg.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SfD-0w-ebl" kind="modal" identifier="cnbc" id="0YN-rT-u3T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DvF-vj-iOo">
+                                <rect key="frame" x="581" y="235" width="185" height="95"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <state key="normal" image="6TKUNqTU.jpeg" backgroundImage="180px-CNBC_logo.svg.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SfD-0w-ebl" kind="modal" identifier="SkyNews" id="07t-ME-Q3b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3b-yM-I9v">
+                                <rect key="frame" x="202" y="137" width="178" height="84"/>
+                                <state key="normal" image="_67373987_09f1654a-e583-4b5f-bfc4-f05850c6d3ce.jpg.bmp">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SfD-0w-ebl" kind="modal" identifier="bbcnews" id="Y2T-Nn-zyg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z20-By-2C8">
+                                <rect key="frame" x="388" y="137" width="178" height="84"/>
+                                <state key="normal" image="NASA_logo.svg.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SfD-0w-ebl" kind="modal" identifier="nasa" id="Igm-SC-AHF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HcQ-kj-6MZ">
+                                <rect key="frame" x="574" y="137" width="178" height="90"/>
+                                <state key="normal" image="eNCA_channel_logo.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SfD-0w-ebl" kind="modal" identifier="eNCA" id="PPm-QI-cTT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWW-Mz-z4i">
+                                <rect key="frame" x="388" y="338" width="178" height="95"/>
+                                <state key="normal" image="Bloomberg_News_logo.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SfD-0w-ebl" kind="modal" identifier="EuroNews" id="rVs-8Y-s7a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3j2-hH-N2C">
+                                <rect key="frame" x="574" y="338" width="178" height="95"/>
+                                <state key="normal" image="Bloomberg_News_logo.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SfD-0w-ebl" kind="modal" identifier="France24" id="VAQ-PK-x6e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Apk-8U-Nv1">
+                                <rect key="frame" x="388" y="441" width="178" height="95"/>
+                                <state key="normal" image="Russia-today-logo.svg.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aym-bp-NP0">
+                                <rect key="frame" x="574" y="441" width="178" height="95"/>
+                                <state key="normal" image="Russia-today-logo.svg.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Main View-->
+        <scene sceneID="ExY-7r-BTj">
+            <objects>
+                <viewController id="SfD-0w-ebl" customClass="MainView" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FHq-Cl-1mA"/>
+                        <viewControllerLayoutGuide type="bottom" id="J8e-s8-pyj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kCC-3k-kvb">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LIx-8N-kl4">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="370"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3h-op-tTl">
+                                <rect key="frame" x="16" y="378" width="568" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Mn-l0-Z0d">
+                                <rect key="frame" x="16" y="554" width="110" height="38"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="ax3-0K-Gc2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.1107007576" blue="0.1887310606" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageForRef" destination="LIx-8N-kl4" id="Prh-yb-bSE"/>
+                        <outlet property="titleLabel" destination="V3h-op-tTl" id="QxJ-4L-bYA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Lf-yq-eeJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1135" y="285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="180px-CNBC_logo.svg.png" width="180" height="134"/>
+        <image name="6TKUNqTU.jpeg" width="400" height="400"/>
+        <image name="Bloomberg_News_logo.png" width="450" height="250"/>
+        <image name="NASA_logo.svg.png" width="2000" height="1655"/>
+        <image name="Russia-today-logo.svg.png" width="2000" height="2000"/>
+        <image name="_67373987_09f1654a-e583-4b5f-bfc4-f05850c6d3ce.jpg.bmp" width="464" height="261"/>
+        <image name="abc_news_24_au.png" width="800" height="350"/>
+        <image name="eNCA_channel_logo.jpg" width="1182" height="1097"/>
+        <image name="extra_big_logo.png" width="300" height="300"/>
+        <image name="logo-print.png" width="500" height="208"/>
+        <image name="natgeowild_logo_cmyk_grey-cb1383850824.png" width="543" height="261"/>
+        <image name="photo.jpg.png" width="512" height="512"/>
+        <image name="whysojapan_nhk_logo.jpg" width="644" height="245"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Psr-si-sOj"/>
+    </inferredMetricsTieBreakers>
+</document>
